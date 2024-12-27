@@ -1,7 +1,7 @@
 const twilio = require("twilio");
 
-const accountSid = "ACe649bf822077fee4236f90eb5be1fc7e"; // Your Twilio Account SID
-const authToken = "25464f43efa4faf0712bb8a1d035f52b"; // Your Twilio Auth Token
+const accountSid = "#"; // Your Twilio Account SID
+const authToken = "#"; // Your Twilio Auth Token
 const client = twilio(accountSid, authToken);
 
 // Generate a random 6-digit OTP
